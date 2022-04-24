@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 const Icon(Icons.info_outlined, color: Colors.white, size: Sizes.largeIconSize,),
-                SizedBox(
+                const SizedBox(
                   height: 25,
                 ),
                 Text(

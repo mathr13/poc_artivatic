@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class Colours {
 
-  // static const Color PRIMARY_BACKGROUND = Colors.black;
+  static const Color primaryBackground = Colors.black;
   static const Color secondaryBackground = Color(0xff16172F);
   // static const Color PRIMARY_BUTTON = Color(0xff16172F);
   
   static const Color primaryText = Colors.white;
-  // static const Color SECONDARY_TEXT = Color(0xff828282);
+  static const Color secondaryText = Color(0xff828282);
   // static const Color PRIMARY_BUTTON_TEXT = Colors.white;
   // static const Color REQUIRED = Colors.red;
 
