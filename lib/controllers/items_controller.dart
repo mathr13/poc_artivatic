@@ -12,6 +12,9 @@ class ItemController extends GetxController {
   AboutList? aboutItems;
   var showProgressIndicator = false.obs;
 
+  double listScrollStart = -1;
+  double listScrollEnd = -1;
+
   fetchItems() async {
     aboutItems?.items.clear();
     showProgressIndicator.value = true;
