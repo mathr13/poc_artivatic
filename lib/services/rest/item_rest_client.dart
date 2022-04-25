@@ -9,7 +9,7 @@ part 'item_rest_client.g.dart';
 @RestApi()
 abstract class ItemRestClient {
 
-  factory ItemRestClient(Dio dio, {String baseUrl}) = _ItemRestClient;
+  factory ItemRestClient(Dio dio) = _ItemRestClient;
 
   @GET(EndPoints.fetchItems)
   Future<AboutList> getItems();
