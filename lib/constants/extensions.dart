@@ -37,7 +37,7 @@ extension ObservableWidget on Widget {
 
 extension ProgressIndicator on Widget {
   ModalProgressHUD withProgressIndicator(bool showIndicator) {
-    Widget progressIndicator = SpinKitFadingFour(
+    Widget progressIndicator = const SpinKitFadingFour(
       color: Colours.primaryText,
     );
     return ModalProgressHUD(
