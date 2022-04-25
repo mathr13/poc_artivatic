@@ -8,11 +8,14 @@ import '../services/error/failure.dart';
 
 class ItemController extends GetxController {
 
-  List<Item> itemsList = [];
+  AboutList? aboutItems;
+  var showProgressIndicator = false.obs;
 
   fetchItems() async {
+    showProgressIndicator.value = true;
     Either<Failure, AboutList> response = await getIt.get<ItemRepository>().getItems();
-    response.fold((l) => print(l), (r) => print(r.title));
+    response.fold((l) => print(l), (r) => aboutItems = r);
+    showProgressIndicator.value = false;
   }
 
 }
