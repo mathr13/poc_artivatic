@@ -51,4 +51,10 @@ class TextStyles {
     color: Colours.secondaryText
   );
 
+  static const TextStyle messageText1 = TextStyle(
+    fontSize: Sizes.headlineFont3,
+    color: Colours.primaryText,
+    fontWeight: FontWeight.bold
+  );
+
 }

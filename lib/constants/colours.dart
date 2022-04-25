@@ -8,7 +8,10 @@ class Colours {
   
   static const Color primaryText = Colors.white;
   static const Color secondaryText = Color(0xff828282);
-  // static const Color PRIMARY_BUTTON_TEXT = Colors.white;
+  static const Color successColour = Colors.green;
+  static const Color errorColour = Colors.red;
+  static const Color messageColour = Colors.white;
+  static const Color primaryButtonText = Colors.white;
   // static const Color REQUIRED = Colors.red;
 
   // static const Color REMOVED = Colors.red;
